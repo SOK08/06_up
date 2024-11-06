@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.ListView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane prefHeight="450.0" prefWidth="650.0" xmlns="http://javafx.com/javafx/19" style="-fx-background-color: #1482b6;" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.demo.HistoryOrder">
+   <children>
+      <Label layoutX="237.0" layoutY="14.0" style="-fx-text-fill: white;" text="История заказов">
+         <font>
+            <Font size="20.0" />
+         </font>
+      </Label>
+      <Button fx:id="nazad" layoutX="549.0" layoutY="400.0" mnemonicParsing="false" onAction="#exit" text="Назад">
+         <font>
+            <Font size="16.0" />
+         </font>
+      </Button>
+      <ListView fx:id="data_time" layoutX="24.0" layoutY="100.0" prefHeight="200.0" prefWidth="200.0" />
+      <ListView fx:id="spisok" layoutX="325.0" layoutY="100.0" prefHeight="200.0" prefWidth="200.0" />
+      <Label layoutX="81.0" layoutY="65.0" style="-fx-text-fill: white;" text="Дата и время">
+         <font>
+            <Font size="14.0" />
+         </font>
+      </Label>
+      <Label layoutX="30.0" layoutY="346.0" style="-fx-text-fill: white;" text="Общая стоимость:">
+         <font>
+            <Font size="14.0" />
+         </font>
+      </Label>
+      <Label fx:id="total_amount" layoutX="160.0" layoutY="342.0" prefHeight="26.0" prefWidth="153.0" style="-fx-text-fill: white;"/>
+      <Label layoutX="351.0" layoutY="65.0" style="-fx-text-fill: white;" text="Список оказаных услуг">
+         <font>
+            <Font size="14.0" />
+         </font>
+      </Label>
+      <Label layoutX="41.0" layoutY="389.0" style="-fx-text-fill: white;" text="Статус заказа:">
+         <font>
+            <Font size="15.0" />
+         </font>
+      </Label>
+      <Label fx:id="order_status" layoutX="167.0" layoutY="387.0" prefHeight="26.0" prefWidth="153.0" style="-fx-text-fill: white;"/>
+   </children>
+</AnchorPane>

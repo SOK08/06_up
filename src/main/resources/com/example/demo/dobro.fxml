@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.shape.Line?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane prefHeight="299.0" prefWidth="600.0" style="-fx-background-color: #bac9f7;" xmlns="http://javafx.com/javafx/20.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.demo.Dobro">
+   <children>
+      <Button fx:id="nachal" layoutX="403.0" layoutY="272.0" mnemonicParsing="false" onAction="#nachalo" prefHeight="30.0" prefWidth="119.0" style="-fx-background-color: #bac9f7; -fx-border-color: white; -fx-border-radius: 15; -fx-background-radius: 15;" styleClass="-fx-border-color" text="Войти в систему" textFill="WHITE">
+         <font>
+            <Font name="Noto Serif Lao Bold" size="13.0" />
+         </font></Button>
+      <AnchorPane layoutX="-3.0" prefHeight="310.0" prefWidth="328.0">
+         <children>
+            <ImageView fitHeight="331.0" fitWidth="318.0" layoutX="9.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@/maket.png" />
+               </image>
+            </ImageView>
+            <Line endX="-99.00003051757812" endY="320.0" layoutX="427.0" layoutY="-8.0" startX="-100.0" stroke="WHITE" />
+         </children>
+      </AnchorPane>
+      <Label alignment="CENTER" layoutX="327.0" layoutY="119.0" prefHeight="74.0" prefWidth="274.0" text="Санчо Панчо" textFill="WHITE">
+         <font>
+            <Font name="Noto Serif Lao Bold" size="28.0" />
+         </font>
+      </Label>
+      <Label alignment="CENTER" layoutX="338.0" prefHeight="54.0" prefWidth="262.0" text="Добро пожаловать" textFill="WHITE">
+         <font>
+            <Font name="Noto Serif Lao Bold" size="26.0" />
+         </font>
+      </Label>
+   </children>
+</AnchorPane>
